@@ -1,0 +1,24 @@
+{
+	"workers": 2,
+	"db": [
+		"host=localhost dbname=test user=test password=test"
+	],
+	"host": "127.0.0.1",
+	"ports": [
+		{
+			"num": 12345,
+			"parser": "debug",
+			"typename": "debug"
+		},
+		{
+			"num": 8081,
+			"parser": "irz",
+			"typename": "irz"
+		},
+		{
+			"num": 8086,
+			"parser": "m2m",
+			"typename": "m2m"
+		}
+	]
+}

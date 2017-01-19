@@ -1,0 +1,12 @@
+/ys-td
+*.o
+*.swp
+*.swo
+*.orig
+.ycm_extra_conf.py
+.ycm_extra_conf.pyc
+/.project
+/.cproject
+/.settings
+/test/*.test
+
